@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+*{
+  font-family: 'segoe ui', sans-serif;
+  color: #14213d;
+  
+}
+
+html{
+  background-color: hsl(0, 0%, 86%);
+}
+
+
+.layout{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.listitems{
+  width: 90vw;
+  max-width: 500px;
+  margin-top: 24px;
+  background-color:#fca311;
+  border: 0; 
+
+
+}
+.listitems>div>button[value="UnDone"] 
+{
+  background-color: #eee;
+  
+}
+
+/* .footer{
+  position: fixed;
+  justify-content: center;
+  bottom:0px ;
+  font-weight:lighter; 
+  
+}
+  */
+
+  /* .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  } */
+
+
+
+
+
+.site-footer {
+  background-color: #ffbb4f;
+  color: #000;
+  position: fixed;
+  justify-content: center;
+  bottom: 0px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+
+
+
+
+.layout>div>:nth-child(even){
+  background-color: #ffbb4f;
+}
+
